@@ -1,28 +1,28 @@
 {
-    "name": "fis-hook-ejs-include-path",
-    "description": "用 fis 构建时，使 ejs 嵌套模版支持相对路径",
-    "keywords": [
-        "fis",
-        "fis3",
-        "ejs"
-    ],
-    "version": "0.0.1",
-    "license": "MIT",
-    "author": {
-        "name": "ken",
-        "email": "ken198701@gmail.com"
-    },
-    "scripts": {
-        "release": "bash release.sh"
-    },
-    "main": "index.js",
-    "engines": {
-        "node": ">= 6.0.0"
-    },
-    "files": [
-        "index.js"
-    ],
-    "peerDependencies": {
-        "fis3": ""
-    }
+  "name": "fis-hook-ejs-include-path",
+  "description": "用 fis 构建时，使 ejs 嵌套模版支持相对路径",
+  "keywords": [
+    "fis",
+    "fis3",
+    "ejs"
+  ],
+  "version": "0.0.2",
+  "license": "MIT",
+  "author": {
+    "name": "ken",
+    "email": "ken198701@gmail.com"
+  },
+  "scripts": {
+    "release": "bash release.sh"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "fis3": ""
+  }
 }

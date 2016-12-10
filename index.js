@@ -57,7 +57,7 @@ const onStandardRestoreUri = (message) => {
     const file = message.file;
     const info = message.info;
 
-    if (!file.isText() || file.isInline) {
+    if (!info || !info.file || !file.isText() || file.isInline) {
         return;
     }
 

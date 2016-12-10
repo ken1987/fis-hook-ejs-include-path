@@ -57,7 +57,8 @@ const onStandardRestoreUri = (message) => {
     const file = message.file;
     const info = message.info;
 
-    if (!info || !info.file || !file.isText() || file.isInline) {
+    // 只处理 HTML
+    if (!info || !info.file || !info.file.isHtmlLike || !file.isHtmlLike || file.isInline) {
         return;
     }
 

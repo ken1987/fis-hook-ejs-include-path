@@ -62,7 +62,7 @@ const onStandardRestoreUri = (message) => {
         return;
     }
 
-    message.ret = getRelativeUrl(info.file.release, file.release);
+    message.ret = getRelativeUrl(message.ret, file.release);
 };
 
 module.exports = (fis) => {

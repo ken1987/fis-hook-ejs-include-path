@@ -23,6 +23,6 @@
     "index.js"
   ],
   "peerDependencies": {
-    "fis3": ""
+    "fis3": "^3.0.0"
   }
 }
